@@ -89,25 +89,53 @@ else{
             </aside>
             <section>
                 <form action="/action_page.php">
-                    <label for="fname">First name:</label>
-                    <input type="text" id="fname" name="fname"><br><br>
-                    <label for="lname">Last name:</label>
-                    <input type="text" id="lname" name="lname"><br><br>
-                    <label for="pword">Password:</label>
-                    <input type="password" id="pword" name="pword"><br><br>
-                    <label for="student">Student:</label>
-                    <input type="checkbox" name="student" id="student"><br><br>
-                    <label for="eaddress">Email Address:</label>
-                    <input type="email" name="eaddress" id="eaddress"><br><br>
-                    <label for="phone">Phone Number:</label>
-                    <input type="tel" name="phone" id="phone"><br><br>
-                    <label for="PID">Student ID(PID):</label>
-                    <input type="number" name="PID" id="PID"><br><br>
-                    <label for="website">Github:</label>
-                    <input type="url" name="website" id="website"><br><br>
-                    <label for="rstbtn">Reset Form:</label>
-                    <input type="reset" name="rstbtn" id="rstbtn"><br><br>
-                    <input type="submit" value="Submit">
+                    <fieldset>
+                        <legend>About you:</legend>
+                        <textarea id="w3review" name="w3review" rows="4" cols="50">
+                            Now that you've learned about me. Tell me about yourself.
+                        </textarea>
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname"><br><br>
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname"><br><br>
+                        <label for="pword">Password:</label>
+                        <input type="password" id="pword" name="pword"><br><br>
+                        <label for="student">Student:</label>
+                        <input type="checkbox" name="student" id="student"><br><br>
+                        <label for="eaddress">Email Address:</label>
+                        <input type="email" name="eaddress" id="eaddress"><br><br>
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" name="phone" id="phone"><br><br>
+                        <label for="PID">Student ID(PID):</label>
+                        <input type="number" name="PID" id="PID"><br><br>
+                        <label for="website">Github:</label>
+                        <input type="url" name="website" id="website"><br><br>
+                        <label for="cars">Choose a car:</label>
+                        <select name="cars" id="cars">
+                            <optgroup label="Swedish Cars">
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            </optgroup>
+                            <optgroup label="German Cars">
+                            <option value="mercedes">Mercedes</option>
+                            <option value="audi">Audi</option>
+                            <optgroup label="Electric Cars"></optgroup>
+                            <option value="tesla">Tesla</option>
+                            </optgroup>
+                        </select><br><br>
+                        <label for="browser">Choose your browser from the list:</label>
+                        <input list="browsers" name="browser" id="browser">
+                        <datalist id="browsers">
+                            <option value="Edge">
+                            <option value="Firefox">
+                            <option value="Chrome">
+                            <option value="Opera">
+                            <option value="Safari">
+                        </datalist><br><br>
+                        <label for="rstbtn">Reset Form:</label>
+                        <input type="reset" name="rstbtn" id="rstbtn"><br><br>
+                        <input type="submit" value="Submit">
+                    </fieldset>
                 </form>
             </section>
         </main>
