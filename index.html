@@ -21,40 +21,43 @@
             </header>
             <hr>
             <section>
-                <h3>About Me:</h3>
-                <div class = "myLists">
-                    <ul>
-                        <li>Major: Computer Science (June 2023)</li>
-                        <li>Technical Skills:</li>
-                            <ol>
-                                <li>Java</li>
-                                <li>C++</li>
-                                <li>Python</li>
-                            </ol>
-                        <li>Hometown: San Diego</li>
-                        <li>Hobbies:</li>
-                            <ul>
-                                <li>Learn languages</li>
-                                <li>Crochet</li>
-                                <li>Scrapbook</li>
-                                <li>Create travel videos</li>
-                            </ul>
-                        <li>2 Favorite Color:</li>
-                        <svg width="100" height="100">
-                            <circle cx="50" cy="50" r="40" stroke="black" stroke-width="4" fill="#5AADBF" />
-                        </svg>
-                        <canvas id="myCanvas"></canvas>
-                        <script>
-                        var c = document.getElementById("myCanvas");
-                        var ctx = c.getContext("2d");
-                        ctx.fillStyle = "#5AD17A";
-                        ctx.fillRect(0, 0, 50, 50);
-                        </script>
-                    </ul>
-                    <video width="320" height="240" controls>
-                        <source src="assets/travel.mp4" type="video/mp4">
-                    </video>
-                </div>
+                <button type="button">Click Me!</button>
+                <details>
+                    <summary><h3>About Me:</h3></summary>
+                    <div class = "myLists">
+                        <ul>
+                            <li>Major: Computer Science (June 2023)</li>
+                            <li>Technical Skills:</li>
+                                <ol>
+                                    <li>Java</li>
+                                    <li>C++</li>
+                                    <li>Python</li>
+                                </ol>
+                            <li>Hometown: San Diego</li>
+                            <li>Hobbies:</li>
+                                <ul>
+                                    <li>Learn languages</li>
+                                    <li>Crochet</li>
+                                    <li>Scrapbook</li>
+                                    <li>Create travel videos</li>
+                                </ul>
+                            <li>2 Favorite Color:</li>
+                            <svg width="100" height="100">
+                                <circle cx="50" cy="50" r="40" stroke="black" stroke-width="4" fill="#5AADBF" />
+                            </svg>
+                            <canvas id="myCanvas"></canvas>
+                            <script>
+                            var c = document.getElementById("myCanvas");
+                            var ctx = c.getContext("2d");
+                            ctx.fillStyle = "#5AD17A";
+                            ctx.fillRect(0, 0, 50, 50);
+                            </script>
+                        </ul>
+                        <video width="320" height="240" controls>
+                            <source src="assets/travel.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </details>
                 <figure>
                     <link href="https://www.w3schools.com/tags/" rel="HTML Tags Ref">
                     <picture>
@@ -102,30 +105,31 @@
             </aside>
             <aside>
                 <h3>Quotes:</h3>
-                <b>A saying I like:</b>
-                <q> <i>A mistake is a <em>lesson</em>, <br>
-                    not a loss.</i> </q>
+                <b>A saying I like:</b> <br>
+                <q><i>A mistake is a <em>lesson</em>, <br>
+                    not a loss.</i></q>
                 <br>
-                <b>Quoting Code:</b>
-                <span style="color: darkslategray">
-                    
-                    <pre><code>
+                <template>
+                    <b>Quoting Code:</b>
+                    <span style="color: darkslategray">
+                        <pre><code>
 if(tired() == true){
     sleep();
 }
 else{
     return;
 }
-                        </code>
-                    </pre>
-                </span>
+                            </code>
+                        </pre>
+                    </span>
+                </template>
             </aside>
             <section>
                 <form action="/action_page.php">
                     <fieldset>
                         <legend>About you:</legend>
                         <textarea id="w3review" name="w3review" rows="4" cols="50">
-                        Now that you've learned about me. Tell me about yourself.
+Now that you've learned about me. Tell me about yourself.
                         </textarea><br><br>
                         <label for="fname">First name:</label>
                         <input type="text" id="fname" name="fname"><br><br>
@@ -152,7 +156,8 @@ else{
                             <optgroup label="German Cars">
                             <option value="mercedes">Mercedes</option>
                             <option value="audi">Audi</option>
-                            <optgroup label="Electric Cars"></optgroup>
+                            </optgroup> 
+                            <optgroup label="Electric Cars">
                             <option value="tesla">Tesla</option>
                             </optgroup>
                         </select><br><br>
