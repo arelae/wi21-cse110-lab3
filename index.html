@@ -8,6 +8,7 @@
     </head>
     <body>
         <main>
+            <audio src="assets/zapsplat_fantasy_magical_mysterious_burst_57891.mp3" type="audio/mpeg"></audio>
             <nav>
                 <h3>Links</h3>
                 <a href="https://github.com/arelae">My Github Profile</a>
@@ -16,16 +17,11 @@
             <hr>
             <header>
                 <h1>Arela's User Page</h1>
-                <h2>Hi, I'm Arela!</h2>
+                <strong>Hi, I'm Arela!</strong>
             </header>
             <hr>
             <section>
                 <h3>About Me:</h3>
-                <figure>
-                    <link href="https://www.w3schools.com/tags/" rel="HTML Tags Ref">
-                    <img src="assets/panda.png" alt="Panda" style="width:10%;height:10%;">
-                    <figcaption>My favorite animal: Panda</figcaption>
-                </figure>
                 <div class = "myLists">
                     <ul>
                         <li>Major: Computer Science (June 2023)</li>
@@ -43,22 +39,51 @@
                                 <li>Scrapbook</li>
                                 <li>Create travel videos</li>
                             </ul>
+                        <li>2 Favorite Color:</li>
+                        <svg width="100" height="100">
+                            <circle cx="50" cy="50" r="40" stroke="black" stroke-width="4" fill="#5AADBF" />
+                        </svg>
+                        <canvas id="myCanvas"></canvas>
+                        <script>
+                        var c = document.getElementById("myCanvas");
+                        var ctx = c.getContext("2d");
+                        ctx.fillStyle = "#5ad17a";
+                        ctx.fillRect(0, 0, 50, 50);
+                        </script>
                     </ul>
+                    <video width="320" height="240" controls>
+                        <source src="assets/travel.mp4" type="video/mp4">
+                    </video>
                 </div>
+                <figure>
+                    <link href="https://www.w3schools.com/tags/" rel="HTML Tags Ref">
+                    <picture>
+                        <source media="(min-width:650px)" srcset="assets/iconfinder_Happy_panda_face_bear_3044803.png">
+                        <source media="(min-width:465px)" srcset="assets/iconfinder_panda_sick_face__3044797.png">
+                        <img src="assets/panda.png" alt="Panda" style="width:10%;height:10%;">
+                      </picture>
+                      <iframe src="https://www.google.com/search?q=panda&safe=strict&rlz=1C5CHFA_enUS932US932&sxsrf=ALeKk01pKY-C6YSu9gCUEMsyEHc4zHvVhQ:1610515362499&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiE0diglZjuAhWVHTQIHbPuCR8Q_AUoAXoECAQQAw&biw=1440&bih=710" width="100%" height="300" style="border:1px solid black;"></iframe>
+                    <figcaption>My favorite animal: Panda</figcaption>
+                </figure>
             </section>
             <hr>
             <aside>
-                <h3>A saying I like:</h3>
-                <q>A mistake is a lesson, not a loss.</q>
-                <h3>Quoting Code</h3>
+                <h3>Quotes:</h3>
+                <b>A saying I like:</b>
+                <q> <i>A mistake is a <em>lesson</em>, <br>
+                    not a loss.</i> </q>
+                <b>Quoting Code:</b>
                 <span style="color: darkslategray">
                     <pre>
+                        <code>
 if(tired() == true){
     sleep();
 }
 else{
     return;
 }
+                        </code>
+
                     </pre>
                 </span>
             </aside>
