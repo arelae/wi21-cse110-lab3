@@ -1,3 +1,15 @@
 body{
     background-color: #CFDDDF;
 }
+
+.myHeader{
+    background-color: rgb(225,230,231);
+}
+
+#title{
+    color: darkslategrey;
+}
+
+#intro{
+    color: hsl(172, 6%, 36%)
+}
