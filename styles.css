@@ -1,5 +1,12 @@
-body{
+*{
     background-color: #CFDDDF;
+}
+
+body{
+    border-style: ridge;
+    border-color: whitesmoke;
+    border-width: 5px;
+    border-radius: 10px;
 }
 
 .myHeader{
