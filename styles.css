@@ -32,6 +32,10 @@ div{
     width: 250px;
 }
 
+q{
+    display: block;
+}
+
 #title{
     font-family: 'Parisienne', cursive;
     color: darkslategrey;
@@ -40,5 +44,6 @@ div{
 }
 
 #intro{
+    display: inline-block;
     color: hsl(172, 6%, 36%)
 }
