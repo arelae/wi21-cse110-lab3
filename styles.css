@@ -33,6 +33,7 @@ div{
 }
 
 #title{
+    font-family: 'Parisienne', cursive;
     color: darkslategrey;
     text-decoration: underline-overline;
     text-align: center;
