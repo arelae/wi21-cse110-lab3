@@ -18,7 +18,7 @@ div{
     margin: (2%, 2%, 5%, 5%);
 }
 
-.myHeader{
+.my-Header{
     background-color: rgb(225,230,231);
     padding-top: 5pt;
     padding-bottom: 5pt;
@@ -36,6 +36,14 @@ q{
     display: block;
 }
 
+button:active{
+    background-color: #b7d88d;
+}
+
+.my-Header:hover{
+    background-color: rgb(134, 177, 143);
+}
+
 #title{
     font-family: 'Parisienne', cursive;
     color: darkslategrey;
@@ -46,4 +54,8 @@ q{
 #intro{
     display: inline-block;
     color: hsl(172, 6%, 36%)
+}
+
+[class ^= my]{
+    color: hsl(153, 1%, 23%);
 }
