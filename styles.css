@@ -1,3 +1,41 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f1f1f1;
+    justify-content: center;
+    align-self: center;
+}
+
+.flex-container > div {
+    background-color:#8dd8b4;
+    width: 100px;
+    margin: 20px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #8dd8b4;
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+
+h2, h3 {
+    border-style: dashed;
+    border-color: whitesmoke;
+}
+
 *{
     background-color: #CFDDDF;
 }
@@ -7,15 +45,12 @@ body{
     border-color: whitesmoke;
     border-width: 1rem;
     border-radius: 2px;
-    margin: auto;
+    
 }
 
 div{
     background-color: lightgrey;
-    width: 10em;
     border: 1cm solid #8eafa1;
-    padding: (10pt, 10pt, 20pt, 20pt);
-    margin: (2%, 2%, 5%, 5%);
 }
 
 .my-Header{
@@ -33,10 +68,14 @@ div{
 }
 
 q{
+    margin: auto;
     display: block;
 }
 
 button:active{
+    padding: (10pt, 10pt, 20pt, 20pt);
+    margin: (2%, 2%, 5%, 5%);
+    width: 10em;
     background-color: #b7d88d;
 }
 
