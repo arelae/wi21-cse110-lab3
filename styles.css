@@ -37,6 +37,23 @@ h2, h3 {
     border-color: whitesmoke;
 }
 
+header.my-Header {
+    border: solid;
+    border-color: grey;
+}
+
+ul li {
+    background-color:rgb(225,230,231);
+}
+
+h3 + b {
+    background-color: rgb(225,230,231);
+}
+
+b ~ q {
+    background-color: rgb(225,230,231);
+}
+
 /*background color for whole page*/
 *{
     background-color: #CFDDDF;
