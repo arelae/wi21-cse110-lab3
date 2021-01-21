@@ -5,16 +5,37 @@
 body{
     border-style: ridge;
     border-color: whitesmoke;
-    border-width: 4px;
-    border-radius: 10px;
+    border-width: 1rem;
+    border-radius: 2px;
+    margin: auto;
+}
+
+div{
+    background-color: lightgrey;
+    width: 10em;
+    border: 1cm solid #8eafa1;
+    padding: (10pt, 10pt, 20pt, 20pt);
+    margin: (2%, 2%, 5%, 5%);
 }
 
 .myHeader{
     background-color: rgb(225,230,231);
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+    padding-right: 5pt;
+    padding-left: 5pt;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    height: 90px;
+    width: 250px;
 }
 
 #title{
     color: darkslategrey;
+    text-decoration: underline-overline;
+    text-align: center;
 }
 
 #intro{
